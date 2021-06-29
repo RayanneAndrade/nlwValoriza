@@ -8,20 +8,6 @@
 
 ---
 
-## Índice 📖
-* __[Descrição](#description)__
-* __[Tecnologias](#technologies)__
-* __[Rotas atuais](#routes)__
-* __[Regras do projeto](#rules)__
-* __Aulas__
-  * __[Aula 1 - Criando projeto](#class1)__
-  * __[Aula 2 - Criando estrutura de usuários](#class2)__
-  * __[Aula 3 - Criando estrutura de tags](#class3)__
-  * __[Aula 4 -  Criando estrutura de elogios](#class4)__
-  * __[Aula 5 - Finalizando projeto](#class5)__
-
----
-
 ## Descrição 📌 <a name="description"></a>
 Sistema para fazer elogio a outros usuários por meio de tags. 
 
@@ -81,8 +67,3 @@ Sistema para fazer elogio a outros usuários por meio de tags.
 
 ### Instalação 
 * _yarn add typeorm reflect-metadata sqlite3_ -> baixa as 3 dependências de uma vez(). *reflect-metadata* nos permite adicionar os *decorators*(@) as classes e funções, lhes atribuindo um apelido.
-
-
-### Migrations 
-  É um controle de versionamento de código SQL. Mantem a versão mais recente dos códigos do Banco de dados, assim todo time usa a mesma versão. Nesse projeto, é usado o TypeORM Migrations.
-
